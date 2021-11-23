@@ -5,6 +5,9 @@ import EmployeesList from '../employees-list/employees-list';
 import SearchPanel from '../search-panel/search-panel';
 import './app.css';
 
+// const Xz = async () => await EmployeesList;
+// console.log(Xz());
+
 function App() {
   return (
     <div className="app">
@@ -13,7 +16,7 @@ function App() {
         <SearchPanel />
         <AppFilter />
       </div>
-      <EmployeesList />
+      <EmployeesList/>
       <EmployeesAddForm />
     </div>
   )
